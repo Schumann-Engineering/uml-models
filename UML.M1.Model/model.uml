@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_nD9OsFMYEeCKjpcsiVp6kQ" name="Model">
+  <packageImport xmi:id="_YDq0cFMaEeCKjpcsiVp6kQ">
+    <importedPackage href="../model.Platform/platform.uml#__Y19cFLtEeCkeMUVBdykcg"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_v73qkFMYEeCKjpcsiVp6kQ" name="Integer">
+    <ownedAttribute xmi:id="_zmBBEFMYEeCKjpcsiVp6kQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_xBW2gFMZEeCKjpcsiVp6kQ"/>
+      <upperValue xmi:type="uml:LiteralInteger" xmi:id="_S1fU0FMZEeCKjpcsiVp6kQ" name="LiteralInteger0"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1d9aIFMYEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_VI-aYFMZEeCKjpcsiVp6kQ" name="Integer.value-default" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_sbjwEFMZEeCKjpcsiVp6kQ" name="Boolean">
+    <ownedAttribute xmi:id="_LHTEoFMaEeCKjpcsiVp6kQ" name="value">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_LSZlYFLuEeCkeMUVBdykcg"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_xNpJkFMaEeCKjpcsiVp6kQ" name="Boolean.value-default"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_2HhCkFMaEeCKjpcsiVp6kQ" name="String">
+    <ownedAttribute xmi:id="_F4H0kFMbEeCKjpcsiVp6kQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_76MoUFMZEeCKjpcsiVp6kQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H-UsEVMbEeCKjpcsiVp6kQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H-UsEFMbEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_H-UsElMbEeCKjpcsiVp6kQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Q8qgEFMbEeCKjpcsiVp6kQ" name="languageIsoCode">
+      <type xmi:type="uml:Enumeration" href="../model.Platform/platform.uml#_7c8GYFLeEeCkeMUVBdykcg"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_3153AFMaEeCKjpcsiVp6kQ" name="UnsignedInteger">
+    <ownedAttribute xmi:id="_IY8ykFMbEeCKjpcsiVp6kQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_yo74UFMZEeCKjpcsiVp6kQ"/>
+      <upperValue xmi:type="uml:LiteralInteger" xmi:id="_sC8UYFMcEeCKjpcsiVp6kQ" name="LiteralInteger0"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Js8xEFMbEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralNull" xmi:id="_1qfdcFMcEeCKjpcsiVp6kQ" name="unsignedInteger.value-default"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_lW5voFMbEeCKjpcsiVp6kQ" name="Date">
+    <ownedAttribute xmi:id="_oJfzEFMbEeCKjpcsiVp6kQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_STyOkFMcEeCKjpcsiVp6kQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oq53AVMbEeCKjpcsiVp6kQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oq53AFMbEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralNull" xmi:id="_7L864FMcEeCKjpcsiVp6kQ" name="Date.value-default"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tBuGQFMbEeCKjpcsiVp6kQ" name="Year">
+    <ownedAttribute xmi:id="_tBuGQVMbEeCKjpcsiVp6kQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="../model.Platform/platform.uml#_yo74UFMZEeCKjpcsiVp6kQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tBuGQlMbEeCKjpcsiVp6kQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tBuGQ1MbEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ik2pUFMcEeCKjpcsiVp6kQ" name="Year.value-default" value="2011"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EdLEEFMcEeCKjpcsiVp6kQ" name="yearType" visibility="public" type="_3nQhkFMbEeCKjpcsiVp6kQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HNPX8VMcEeCKjpcsiVp6kQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HNPX8FMcEeCKjpcsiVp6kQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_bRMOcFMcEeCKjpcsiVp6kQ" name="Year.yearType-default" value="AfterChrist"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_3nQhkFMbEeCKjpcsiVp6kQ" name="YearTypeKind">
+    <ownedLiteral xmi:id="_9Rp4kFMbEeCKjpcsiVp6kQ" name="BeforChrist"/>
+    <ownedLiteral xmi:id="__SvmkFMbEeCKjpcsiVp6kQ" name="AfterChrist"/>
+  </packagedElement>
+</uml:Model>

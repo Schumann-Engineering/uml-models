@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Profile="http:///schemas/Profile/_hiEFkFSbEeCnEuHh6RUCsQ/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/Profile/_hiEFkFSbEeCnEuHh6RUCsQ/0 ../profile.Database/model.uml#_hiGh0FSbEeCnEuHh6RUCsQ">
+  <uml:Model xmi:id="_1mIsQFL4EeCkeMUVBdykcg" name="M2">
+    <packagedElement xmi:type="uml:Package" xmi:id="_YtT9cFMREeC0XsBZd99Zxg" name="View">
+      <packageImport xmi:id="_q5WQEFMREeC0XsBZd99Zxg" importedPackage="_kLM9EFMREeC0XsBZd99Zxg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7vJ48FL4EeCkeMUVBdykcg" name="View">
+        <generalization xmi:id="_ITIW4FL5EeCkeMUVBdykcg">
+          <general xmi:type="uml:Class" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D416D58F70035"/>
+        </generalization>
+        <ownedAttribute xmi:id="_YnkOsFL5EeCkeMUVBdykcg" name="class" type="_2_uzEFMREeC0XsBZd99Zxg" association="_Ynk1wFL5EeCkeMUVBdykcg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YnkOsVL5EeCkeMUVBdykcg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YnkOslL5EeCkeMUVBdykcg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_mGRPgFL5EeCkeMUVBdykcg" name="usedProperty" type="_7udzEFMREeC0XsBZd99Zxg" association="_mGR2kFL5EeCkeMUVBdykcg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mGRPgVL5EeCkeMUVBdykcg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mGRPglL5EeCkeMUVBdykcg"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Ynk1wFL5EeCkeMUVBdykcg" name="A_class_view" memberEnd="_Ynk1wVL5EeCkeMUVBdykcg _YnkOsFL5EeCkeMUVBdykcg">
+        <ownedEnd xmi:id="_Ynk1wVL5EeCkeMUVBdykcg" name="view" type="_7vJ48FL4EeCkeMUVBdykcg" association="_Ynk1wFL5EeCkeMUVBdykcg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ynk1wlL5EeCkeMUVBdykcg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ynk1w1L5EeCkeMUVBdykcg"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mGR2kFL5EeCkeMUVBdykcg" name="A_usedProperty_view" memberEnd="_mGR2kVL5EeCkeMUVBdykcg _mGRPgFL5EeCkeMUVBdykcg">
+        <ownedEnd xmi:id="_mGR2kVL5EeCkeMUVBdykcg" name="view" type="_7vJ48FL4EeCkeMUVBdykcg" association="_mGR2kFL5EeCkeMUVBdykcg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mGR2klL5EeCkeMUVBdykcg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mGR2k1L5EeCkeMUVBdykcg"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kLM9EFMREeC0XsBZd99Zxg" name="Basic">
+      <eAnnotations xmi:id="_gEqMEFSeEeCnEuHh6RUCsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <eAnnotations xmi:id="_gEqMEVSeEeCnEuHh6RUCsQ" source="InfrastructureLibrary::Core::Basic" references="_gB5zAVSeEeCnEuHh6RUCsQ _2_uzEFMREeC0XsBZd99Zxg _gB6aEVSeEeCnEuHh6RUCsQ _7udzEFMREeC0XsBZd99Zxg _gB7BIlSeEeCnEuHh6RUCsQ _gB6aFVSeEeCnEuHh6RUCsQ _gB7BKVSeEeCnEuHh6RUCsQ _gB7BJlSeEeCnEuHh6RUCsQ _gB7BMFSeEeCnEuHh6RUCsQ _gB7BLVSeEeCnEuHh6RUCsQ _gB7oM1SeEeCnEuHh6RUCsQ _gB7oMFSeEeCnEuHh6RUCsQ _gB7oOlSeEeCnEuHh6RUCsQ _gB7oN1SeEeCnEuHh6RUCsQ _gB7oPlSeEeCnEuHh6RUCsQ _gB8PQ1SeEeCnEuHh6RUCsQ _gB8PR1SeEeCnEuHh6RUCsQ _gB8PS1SeEeCnEuHh6RUCsQ _gB8PQFSeEeCnEuHh6RUCsQ _P9PkEFMTEeC0XsBZd99Zxg _gB-rjFSeEeCnEuHh6RUCsQ _gB-rj1SeEeCnEuHh6RUCsQ _gB-rklSeEeCnEuHh6RUCsQ _gB-rl1SeEeCnEuHh6RUCsQ _gB-rnFSeEeCnEuHh6RUCsQ _gB-roVSeEeCnEuHh6RUCsQ _gB-rplSeEeCnEuHh6RUCsQ _gB-rrVSeEeCnEuHh6RUCsQ _gB-rtVSeEeCnEuHh6RUCsQ _gB-rgFSeEeCnEuHh6RUCsQ _gB-rvlSeEeCnEuHh6RUCsQ _vAUakFMTEeC0XsBZd99Zxg _gEjeY1SeEeCnEuHh6RUCsQ _gEjeZ1SeEeCnEuHh6RUCsQ _gEjeYFSeEeCnEuHh6RUCsQ _gEkFcFSeEeCnEuHh6RUCsQ _gEksgVSeEeCnEuHh6RUCsQ _gEksgFSeEeCnEuHh6RUCsQ _gEkshVSeEeCnEuHh6RUCsQ _gEkshFSeEeCnEuHh6RUCsQ _gEksiFSeEeCnEuHh6RUCsQ _gEksiVSeEeCnEuHh6RUCsQ _gEksilSeEeCnEuHh6RUCsQ _gEksjFSeEeCnEuHh6RUCsQ _gEksi1SeEeCnEuHh6RUCsQ _gEkskFSeEeCnEuHh6RUCsQ _gEksj1SeEeCnEuHh6RUCsQ"/>
+      </eAnnotations>
+      <packageImport xmi:id="_gB4k4FSeEeCnEuHh6RUCsQ">
+        <importedPackage href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3C9FFCC70354"/>
+      </packageImport>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9-Gd8FMSEeC0XsBZd99Zxg" name="A_ownedProperty_DataType" memberEnd="_9-Gd8VMSEeC0XsBZd99Zxg _9-F24FMSEeC0XsBZd99Zxg">
+        <ownedEnd xmi:id="_9-Gd8VMSEeC0XsBZd99Zxg" name="dataType" type="_P9PkEFMTEeC0XsBZd99Zxg" association="_9-Gd8FMSEeC0XsBZd99Zxg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9-Gd8lMSEeC0XsBZd99Zxg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9-Gd81MSEeC0XsBZd99Zxg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_-osvkFMREeC0XsBZd99Zxg" name="VisibilityKind">
+        <ownedLiteral xmi:id="_BcrTEFMSEeC0XsBZd99Zxg" name="Class"/>
+        <ownedLiteral xmi:id="_CaPHgFMSEeC0XsBZd99Zxg" name="Instance"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ya5rEFMTEeC0XsBZd99Zxg" name="UUID"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2_uzEFMREeC0XsBZd99Zxg" name="Class">
+        <ownedComment xmi:id="_gB5L8FSeEeCnEuHh6RUCsQ" annotatedElement="_2_uzEFMREeC0XsBZd99Zxg">
+          <body>A class is a type that has objects as its instances.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB5zAFSeEeCnEuHh6RUCsQ" general="_gB6aFVSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_gB5zAVSeEeCnEuHh6RUCsQ" name="ownedAttribute" type="_7udzEFMREeC0XsBZd99Zxg" isOrdered="true" aggregation="composite" association="_gEkFcFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB5zAlSeEeCnEuHh6RUCsQ" annotatedElement="_gB5zAVSeEeCnEuHh6RUCsQ">
+            <body>The attributes owned by a class. These do not include the inherited attributes. Attributes are represented by instances of Property.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB5zA1SeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB5zBFSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7udzEFMREeC0XsBZd99Zxg" name="Property">
+        <ownedComment xmi:id="_gB5zBVSeEeCnEuHh6RUCsQ" annotatedElement="_7udzEFMREeC0XsBZd99Zxg">
+          <body>A property is a typed element that represents an attribute of a class.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB5zBlSeEeCnEuHh6RUCsQ" general="_gB7BLVSeEeCnEuHh6RUCsQ"/>
+        <generalization xmi:id="_gB6aEFSeEeCnEuHh6RUCsQ" general="_gB-rgFSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_F58IkFMSEeC0XsBZd99Zxg" name="visibility" visibility="public" type="_-osvkFMREeC0XsBZd99Zxg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JI0fYFMSEeC0XsBZd99Zxg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JIz4UFMSEeC0XsBZd99Zxg" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_JI0fYVMSEeC0XsBZd99Zxg">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB6aEVSeEeCnEuHh6RUCsQ" name="class" type="_2_uzEFMREeC0XsBZd99Zxg" association="_gEkFcFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB6aElSeEeCnEuHh6RUCsQ" annotatedElement="_gB6aEVSeEeCnEuHh6RUCsQ">
+            <body>The class that owns the property, and of which the property is an attribute.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB6aE1SeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB6aFFSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB6aFVSeEeCnEuHh6RUCsQ" name="Type" isAbstract="true">
+        <ownedComment xmi:id="_gB7BIFSeEeCnEuHh6RUCsQ" annotatedElement="_gB6aFVSeEeCnEuHh6RUCsQ">
+          <body>A type is a named element that is used as the type for a typed element. A type can be contained in a package.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7BIVSeEeCnEuHh6RUCsQ" general="_gB7BJlSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_gB7BIlSeEeCnEuHh6RUCsQ" name="package" type="_gB8PQFSeEeCnEuHh6RUCsQ" association="_gEksilSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB7BI1SeEeCnEuHh6RUCsQ" annotatedElement="_gB7BIlSeEeCnEuHh6RUCsQ">
+            <body>Specifies the owning package of this classifier, if any.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB7BJFSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB7BJVSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB7BJlSeEeCnEuHh6RUCsQ" name="NamedElement" isAbstract="true">
+        <ownedComment xmi:id="_gB7BJ1SeEeCnEuHh6RUCsQ" annotatedElement="_gB7BJlSeEeCnEuHh6RUCsQ">
+          <body>A named element represents an element with a name.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7BKFSeEeCnEuHh6RUCsQ" general="_vAUakFMTEeC0XsBZd99Zxg"/>
+        <ownedAttribute xmi:id="_gB7BKVSeEeCnEuHh6RUCsQ" name="name">
+          <ownedComment xmi:id="_gB7BKlSeEeCnEuHh6RUCsQ" annotatedElement="_gB7BKVSeEeCnEuHh6RUCsQ">
+            <body>The name of the NamedElement.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010B103C3"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB7BK1SeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB7BLFSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB7BLVSeEeCnEuHh6RUCsQ" name="TypedElement" isAbstract="true">
+        <ownedComment xmi:id="_gB7BLlSeEeCnEuHh6RUCsQ" annotatedElement="_gB7BLVSeEeCnEuHh6RUCsQ">
+          <body>A typed element is a kind of named element that represents an element with a type.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7BL1SeEeCnEuHh6RUCsQ" general="_gB7BJlSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_gB7BMFSeEeCnEuHh6RUCsQ" name="type" type="_gB6aFVSeEeCnEuHh6RUCsQ" association="_gEkshFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB7BMVSeEeCnEuHh6RUCsQ" annotatedElement="_gB7BMFSeEeCnEuHh6RUCsQ">
+            <body>The type of the TypedElement.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB7BMlSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB7BM1SeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB7oMFSeEeCnEuHh6RUCsQ" name="Enumeration">
+        <ownedComment xmi:id="_gB7oMVSeEeCnEuHh6RUCsQ" annotatedElement="_gB7oMFSeEeCnEuHh6RUCsQ">
+          <body>An enumeration defines a set of literals that can be used as its values.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7oMlSeEeCnEuHh6RUCsQ" general="_P9PkEFMTEeC0XsBZd99Zxg"/>
+        <ownedAttribute xmi:id="_gB7oM1SeEeCnEuHh6RUCsQ" name="ownedLiteral" type="_gB7oN1SeEeCnEuHh6RUCsQ" isOrdered="true" aggregation="composite" association="_gEksiFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB7oNFSeEeCnEuHh6RUCsQ" annotatedElement="_gB7oM1SeEeCnEuHh6RUCsQ">
+            <body>The ordered set of literals for this Enumeration.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB7oNVSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB7oNlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB7oN1SeEeCnEuHh6RUCsQ" name="EnumerationLiteral">
+        <ownedComment xmi:id="_gB7oOFSeEeCnEuHh6RUCsQ" annotatedElement="_gB7oN1SeEeCnEuHh6RUCsQ">
+          <body>An enumeration literal is a value of an enumeration.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7oOVSeEeCnEuHh6RUCsQ" general="_gB7BJlSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_gB7oOlSeEeCnEuHh6RUCsQ" name="enumeration" type="_gB7oMFSeEeCnEuHh6RUCsQ" association="_gEksiFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB7oO1SeEeCnEuHh6RUCsQ" annotatedElement="_gB7oOlSeEeCnEuHh6RUCsQ">
+            <body>The Enumeration that this EnumerationLiteral is a member of.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB7oPFSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB7oPVSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB7oPlSeEeCnEuHh6RUCsQ" name="PrimitiveType">
+        <ownedComment xmi:id="_gB7oP1SeEeCnEuHh6RUCsQ" annotatedElement="_gB7oPlSeEeCnEuHh6RUCsQ">
+          <body>A primitive type is a data type implemented by the underlying infrastructure and made available for modeling.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB7oQFSeEeCnEuHh6RUCsQ" general="_P9PkEFMTEeC0XsBZd99Zxg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB8PQFSeEeCnEuHh6RUCsQ" name="Package">
+        <ownedComment xmi:id="_gB8PQVSeEeCnEuHh6RUCsQ" annotatedElement="_gB8PQFSeEeCnEuHh6RUCsQ">
+          <body>A package is a container for types and other packages.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB8PQlSeEeCnEuHh6RUCsQ" general="_gB7BJlSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_gB8PQ1SeEeCnEuHh6RUCsQ" name="nestedPackage" type="_gB8PQFSeEeCnEuHh6RUCsQ" aggregation="composite" association="_gEksiVSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB8PRFSeEeCnEuHh6RUCsQ" annotatedElement="_gB8PQ1SeEeCnEuHh6RUCsQ">
+            <body>The set of contained packages.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB8PRVSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB8PRlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB8PR1SeEeCnEuHh6RUCsQ" name="nestingPackage" type="_gB8PQFSeEeCnEuHh6RUCsQ" association="_gEksiVSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB8PSFSeEeCnEuHh6RUCsQ" annotatedElement="_gB8PR1SeEeCnEuHh6RUCsQ">
+            <body>The containing package.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB8PSVSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB8PSlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB8PS1SeEeCnEuHh6RUCsQ" name="ownedType" type="_gB6aFVSeEeCnEuHh6RUCsQ" aggregation="composite" association="_gEksilSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB8PTFSeEeCnEuHh6RUCsQ" annotatedElement="_gB8PS1SeEeCnEuHh6RUCsQ">
+            <body>The set of contained types.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB8PTVSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB8PTlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_P9PkEFMTEeC0XsBZd99Zxg" name="DataType">
+        <ownedComment xmi:id="_gB8PT1SeEeCnEuHh6RUCsQ" annotatedElement="_P9PkEFMTEeC0XsBZd99Zxg">
+          <body>DataType is an abstract class that acts as a common superclass for different kinds of data types.</body>
+        </ownedComment>
+        <generalization xmi:id="_gB8PUFSeEeCnEuHh6RUCsQ" general="_gB6aFVSeEeCnEuHh6RUCsQ"/>
+        <ownedAttribute xmi:id="_9-F24FMSEeC0XsBZd99Zxg" name="ownedProperty" type="_7udzEFMREeC0XsBZd99Zxg" aggregation="composite" association="_9-Gd8FMSEeC0XsBZd99Zxg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9-F24VMSEeC0XsBZd99Zxg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9-F24lMSEeC0XsBZd99Zxg"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gB-rgFSeEeCnEuHh6RUCsQ" name="MultiplicityElement" isAbstract="true">
+        <ownedComment xmi:id="_gB-rgVSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rgFSeEeCnEuHh6RUCsQ">
+          <body>A multiplicity is a definition of an inclusive interval of non-negative integers beginning with a lower bound and ending with a (possibly infinite) upper bound. A multiplicity element embeds this information to specify the allowable cardinalities for an instantiation of this element.</body>
+        </ownedComment>
+        <ownedRule xmi:id="_gB-rglSeEeCnEuHh6RUCsQ" name="upper_gt_0" constrainedElement="_gB-rgFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rg1SeEeCnEuHh6RUCsQ" annotatedElement="_gB-rglSeEeCnEuHh6RUCsQ">
+            <body>A multiplicity must define at least one valid cardinality that is greater than zero.</body>
+          </ownedComment>
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rhFSeEeCnEuHh6RUCsQ">
+            <language>OCL</language>
+            <body>upperBound()->notEmpty() implies upperBound() > 0</body>
+          </specification>
+        </ownedRule>
+        <ownedRule xmi:id="_gB-rhVSeEeCnEuHh6RUCsQ" name="lower_ge_0" constrainedElement="_gB-rgFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rhlSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rhVSeEeCnEuHh6RUCsQ">
+            <body>The lower bound must be a non-negative integer literal.</body>
+          </ownedComment>
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rh1SeEeCnEuHh6RUCsQ">
+            <language>OCL</language>
+            <body>lowerBound()->notEmpty() implies lowerBound() >= 0</body>
+          </specification>
+        </ownedRule>
+        <ownedRule xmi:id="_gB-riFSeEeCnEuHh6RUCsQ" name="upper_ge_lower" constrainedElement="_gB-rgFSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-riVSeEeCnEuHh6RUCsQ" annotatedElement="_gB-riFSeEeCnEuHh6RUCsQ">
+            <body>The upper bound must be greater than or equal to the lower bound.</body>
+          </ownedComment>
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rilSeEeCnEuHh6RUCsQ">
+            <language>OCL</language>
+            <body>(upperBound()->notEmpty() and lowerBound()->notEmpty()) implies upperBound() >= lowerBound()</body>
+          </specification>
+        </ownedRule>
+        <generalization xmi:id="_gB-ri1SeEeCnEuHh6RUCsQ" general="_vAUakFMTEeC0XsBZd99Zxg"/>
+        <ownedAttribute xmi:id="_gB-rjFSeEeCnEuHh6RUCsQ" name="isOrdered">
+          <ownedComment xmi:id="_gB-rjVSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rjFSeEeCnEuHh6RUCsQ">
+            <body>For a multivalued multiplicity, this attribute specifies whether the values in an instantiation of this element are sequentially ordered.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010AC0090"/>
+          <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_gB-rjlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB-rj1SeEeCnEuHh6RUCsQ" name="isUnique">
+          <ownedComment xmi:id="_gB-rkFSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rj1SeEeCnEuHh6RUCsQ">
+            <body>For a multivalued multiplicity, this attributes specifies whether the values in an instantiation of this element are unique.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010AC0090"/>
+          <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_gB-rkVSeEeCnEuHh6RUCsQ" value="true"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB-rklSeEeCnEuHh6RUCsQ" name="lower">
+          <ownedComment xmi:id="_gB-rk1SeEeCnEuHh6RUCsQ" annotatedElement="_gB-rklSeEeCnEuHh6RUCsQ">
+            <body>Specifies the lower bound of the multiplicity interval.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010A4007B"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB-rlFSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB-rlVSeEeCnEuHh6RUCsQ"/>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_gB-rllSeEeCnEuHh6RUCsQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB-rl1SeEeCnEuHh6RUCsQ" name="upper">
+          <ownedComment xmi:id="_gB-rmFSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rl1SeEeCnEuHh6RUCsQ">
+            <body>Specifies the upper bound of the multiplicity interval.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3DE6A93C0003"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB-rmVSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB-rmlSeEeCnEuHh6RUCsQ"/>
+          <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB-rm1SeEeCnEuHh6RUCsQ" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_gB-rnFSeEeCnEuHh6RUCsQ" name="lowerBound" isQuery="true" bodyCondition="_gB-rnlSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rnVSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rnFSeEeCnEuHh6RUCsQ">
+            <body>The query lowerBound() returns the lower bound of the multiplicity as an integer.</body>
+          </ownedComment>
+          <ownedRule xmi:id="_gB-rnlSeEeCnEuHh6RUCsQ" name="spec" constrainedElement="_gB-rnFSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rn1SeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>result = if lower->notEmpty() then lower else 1 endif</body>
+            </specification>
+          </ownedRule>
+          <ownedParameter xmi:id="_gB-roFSeEeCnEuHh6RUCsQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010A4007B"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_gB-roVSeEeCnEuHh6RUCsQ" name="upperBound" isQuery="true" bodyCondition="_gB-ro1SeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rolSeEeCnEuHh6RUCsQ" annotatedElement="_gB-roVSeEeCnEuHh6RUCsQ">
+            <body>The query upperBound() returns the upper bound of the multiplicity for a bounded multiplicity as an unlimited natural.</body>
+          </ownedComment>
+          <ownedRule xmi:id="_gB-ro1SeEeCnEuHh6RUCsQ" name="spec" constrainedElement="_gB-roVSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rpFSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>result = if upper->notEmpty() then upper else 1 endif</body>
+            </specification>
+          </ownedRule>
+          <ownedParameter xmi:id="_gB-rpVSeEeCnEuHh6RUCsQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3DE6A93C0003"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_gB-rplSeEeCnEuHh6RUCsQ" name="isMultivalued" isQuery="true" precondition="_gB-rqFSeEeCnEuHh6RUCsQ" bodyCondition="_gB-rqlSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rp1SeEeCnEuHh6RUCsQ" annotatedElement="_gB-rplSeEeCnEuHh6RUCsQ">
+            <body>The query isMultivalued() checks whether this multiplicity has an upper bound greater than one.</body>
+          </ownedComment>
+          <ownedRule xmi:id="_gB-rqFSeEeCnEuHh6RUCsQ" constrainedElement="_gB-rplSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rqVSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>upperBound()->notEmpty()</body>
+            </specification>
+          </ownedRule>
+          <ownedRule xmi:id="_gB-rqlSeEeCnEuHh6RUCsQ" name="spec" constrainedElement="_gB-rplSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rq1SeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>result = upperBound() > 1</body>
+            </specification>
+          </ownedRule>
+          <ownedParameter xmi:id="_gB-rrFSeEeCnEuHh6RUCsQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010AC0090"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_gB-rrVSeEeCnEuHh6RUCsQ" name="includesCardinality" isQuery="true" precondition="_gB-rr1SeEeCnEuHh6RUCsQ" bodyCondition="_gB-rsVSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rrlSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rrVSeEeCnEuHh6RUCsQ">
+            <body>The query includesCardinality() checks whether the specified cardinality is valid for this multiplicity.</body>
+          </ownedComment>
+          <ownedRule xmi:id="_gB-rr1SeEeCnEuHh6RUCsQ" constrainedElement="_gB-rrVSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rsFSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>upperBound()->notEmpty() and lowerBound()->notEmpty()</body>
+            </specification>
+          </ownedRule>
+          <ownedRule xmi:id="_gB-rsVSeEeCnEuHh6RUCsQ" name="spec" constrainedElement="_gB-rrVSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rslSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>result = (lowerBound() &lt;= C) and (upperBound() >= C)</body>
+            </specification>
+          </ownedRule>
+          <ownedParameter xmi:id="_gB-rs1SeEeCnEuHh6RUCsQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010AC0090"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gB-rtFSeEeCnEuHh6RUCsQ" name="C">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010A4007B"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_gB-rtVSeEeCnEuHh6RUCsQ" name="includesMultiplicity" isQuery="true" precondition="_gB-rt1SeEeCnEuHh6RUCsQ" bodyCondition="_gB-ruVSeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rtlSeEeCnEuHh6RUCsQ" annotatedElement="_gB-rtVSeEeCnEuHh6RUCsQ">
+            <body>The query includesMultiplicity() checks whether this multiplicity includes all the cardinalities allowed by the specified multiplicity.</body>
+          </ownedComment>
+          <ownedRule xmi:id="_gB-rt1SeEeCnEuHh6RUCsQ" constrainedElement="_gB-rtVSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-ruFSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>self.upperBound()->notEmpty() and self.lowerBound()->notEmpty() and M.upperBound()->notEmpty() and M.lowerBound()->notEmpty()</body>
+            </specification>
+          </ownedRule>
+          <ownedRule xmi:id="_gB-ruVSeEeCnEuHh6RUCsQ" name="spec" constrainedElement="_gB-rtVSeEeCnEuHh6RUCsQ">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gB-rulSeEeCnEuHh6RUCsQ">
+              <language>OCL</language>
+              <body>result = (self.lowerBound() &lt;= M.lowerBound()) and (self.upperBound() >= M.upperBound())</body>
+            </specification>
+          </ownedRule>
+          <ownedParameter xmi:id="_gB-ru1SeEeCnEuHh6RUCsQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010AC0090"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gB-rvFSeEeCnEuHh6RUCsQ" name="M" type="_gB-rgFSeEeCnEuHh6RUCsQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vAUakFMTEeC0XsBZd99Zxg" name="Element" isAbstract="true">
+        <ownedComment xmi:id="_gB-rvVSeEeCnEuHh6RUCsQ" annotatedElement="_vAUakFMTEeC0XsBZd99Zxg">
+          <body>An element is a constituent of a model.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_0yWqoFMTEeC0XsBZd99Zxg" name="uuid" visibility="public" type="_ya5rEFMTEeC0XsBZd99Zxg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Ys9YFMTEeC0XsBZd99Zxg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2YrvQFMTEeC0XsBZd99Zxg" value="1"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_2YuLgFMTEeC0XsBZd99Zxg">
+            <value xsi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gB-rvlSeEeCnEuHh6RUCsQ" name="ownedComment" type="_gEjeYFSeEeCnEuHh6RUCsQ" aggregation="composite" association="_gEksj1SeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gB-rv1SeEeCnEuHh6RUCsQ" annotatedElement="_gB-rvlSeEeCnEuHh6RUCsQ">
+            <body>The Comments owned by this element.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gB-rwFSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gB-rwVSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gEjeYFSeEeCnEuHh6RUCsQ" name="Comment">
+        <ownedComment xmi:id="_gEjeYVSeEeCnEuHh6RUCsQ" annotatedElement="_gEjeYFSeEeCnEuHh6RUCsQ">
+          <body>A comment is a textual annotation that can be attached to a set of elements.</body>
+        </ownedComment>
+        <generalization xmi:id="_gEjeYlSeEeCnEuHh6RUCsQ" general="_vAUakFMTEeC0XsBZd99Zxg"/>
+        <ownedAttribute xmi:id="_gEjeY1SeEeCnEuHh6RUCsQ" name="body">
+          <ownedComment xmi:id="_gEjeZFSeEeCnEuHh6RUCsQ" annotatedElement="_gEjeY1SeEeCnEuHh6RUCsQ">
+            <body>Specifies a string that is the comment.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="/model.M2.UML/UML.Infrastructure.striped.uml#_3ADC7B74022D3CA010B103C3"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEjeZVSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEjeZlSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gEjeZ1SeEeCnEuHh6RUCsQ" name="annotatedElement" type="_vAUakFMTEeC0XsBZd99Zxg" association="_gEksi1SeEeCnEuHh6RUCsQ">
+          <ownedComment xmi:id="_gEjeaFSeEeCnEuHh6RUCsQ" annotatedElement="_gEjeZ1SeEeCnEuHh6RUCsQ">
+            <body>References the Element(s) being commented.</body>
+          </ownedComment>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEjeaVSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEjealSeEeCnEuHh6RUCsQ"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEkFcFSeEeCnEuHh6RUCsQ" name="A_ownedAttribute_class" memberEnd="_gB5zAVSeEeCnEuHh6RUCsQ _gB6aEVSeEeCnEuHh6RUCsQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksgFSeEeCnEuHh6RUCsQ" name="A_opposite_property" memberEnd="_gEksgVSeEeCnEuHh6RUCsQ">
+        <ownedEnd xmi:id="_gEksgVSeEeCnEuHh6RUCsQ" type="_7udzEFMREeC0XsBZd99Zxg" association="_gEksgFSeEeCnEuHh6RUCsQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEksglSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEksg1SeEeCnEuHh6RUCsQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEkshFSeEeCnEuHh6RUCsQ" name="A_type_typedElement" memberEnd="_gB7BMFSeEeCnEuHh6RUCsQ _gEkshVSeEeCnEuHh6RUCsQ">
+        <ownedEnd xmi:id="_gEkshVSeEeCnEuHh6RUCsQ" type="_gB7BLVSeEeCnEuHh6RUCsQ" association="_gEkshFSeEeCnEuHh6RUCsQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEkshlSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEksh1SeEeCnEuHh6RUCsQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksiFSeEeCnEuHh6RUCsQ" name="A_ownedLiteral_enumeration" memberEnd="_gB7oM1SeEeCnEuHh6RUCsQ _gB7oOlSeEeCnEuHh6RUCsQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksiVSeEeCnEuHh6RUCsQ" name="A_nestedPackage_nestingPackage" memberEnd="_gB8PQ1SeEeCnEuHh6RUCsQ _gB8PR1SeEeCnEuHh6RUCsQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksilSeEeCnEuHh6RUCsQ" name="A_ownedType_package" memberEnd="_gB8PS1SeEeCnEuHh6RUCsQ _gB7BIlSeEeCnEuHh6RUCsQ"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksi1SeEeCnEuHh6RUCsQ" name="A_annotatedElement_comment" memberEnd="_gEjeZ1SeEeCnEuHh6RUCsQ _gEksjFSeEeCnEuHh6RUCsQ">
+        <ownedEnd xmi:id="_gEksjFSeEeCnEuHh6RUCsQ" type="_gEjeYFSeEeCnEuHh6RUCsQ" association="_gEksi1SeEeCnEuHh6RUCsQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEksjVSeEeCnEuHh6RUCsQ" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEksjlSeEeCnEuHh6RUCsQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gEksj1SeEeCnEuHh6RUCsQ" name="A_ownedComment_owningElement" memberEnd="_gB-rvlSeEeCnEuHh6RUCsQ _gEkskFSeEeCnEuHh6RUCsQ">
+        <ownedEnd xmi:id="_gEkskFSeEeCnEuHh6RUCsQ" name="owningElement" type="_vAUakFMTEeC0XsBZd99Zxg" association="_gEksj1SeEeCnEuHh6RUCsQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gEkskVSeEeCnEuHh6RUCsQ" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gEksklSeEeCnEuHh6RUCsQ"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_lSrQcFSbEeCnEuHh6RUCsQ">
+      <eAnnotations xmi:id="_lTtyQFSbEeCnEuHh6RUCsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../profile.Database/model.uml#_hiGh0FSbEeCnEuHh6RUCsQ"/>
+      </eAnnotations>
+      <appliedProfile href="../profile.Database/model.uml#_piWNcFL8EeCkeMUVBdykcg"/>
+    </profileApplication>
+  </uml:Model>
+  <Profile:MOFID xmi:id="_xhiaAFSbEeCnEuHh6RUCsQ" base_Property="_0yWqoFMTEeC0XsBZd99Zxg"/>
+</xmi:XMI>

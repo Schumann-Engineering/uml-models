@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ebvkIPFQEeGEvsM2bR2RdQ" name="Database">
+  <packagedElement xmi:type="uml:Package" xmi:id="_ebvkIfFQEeGEvsM2bR2RdQ" name="Values">
+    <packagedElement xmi:type="uml:Package" xmi:id="_ebvkIvFQEeGEvsM2bR2RdQ" name="Calendar">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkI_FQEeGEvsM2bR2RdQ" name="TimestampValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkJPFQEeGEvsM2bR2RdQ" name="DateTimeValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkJfFQEeGEvsM2bR2RdQ" name="IntervalValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkJvFQEeGEvsM2bR2RdQ" name="TimeValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkJ_FQEeGEvsM2bR2RdQ" name="DateValue"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ebvkKPFQEeGEvsM2bR2RdQ" name="I10N">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkKfFQEeGEvsM2bR2RdQ" name="I10nStringValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkKvFQEeGEvsM2bR2RdQ" name="I10nTextValue"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ebvkK_FQEeGEvsM2bR2RdQ" name="Primitive">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkLPFQEeGEvsM2bR2RdQ" name="BooleanValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkLfFQEeGEvsM2bR2RdQ" name="BitValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkLvFQEeGEvsM2bR2RdQ" name="IntegerValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkL_FQEeGEvsM2bR2RdQ" name="TextValue"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkMPFQEeGEvsM2bR2RdQ" name="StringValue"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ebvkMfFQEeGEvsM2bR2RdQ" name="Common">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkMvFQEeGEvsM2bR2RdQ" name="Value"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkM_FQEeGEvsM2bR2RdQ" name="Instance"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkNPFQEeGEvsM2bR2RdQ" name="IdentifiableElement"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ebvkNfFQEeGEvsM2bR2RdQ" name="Link"/>
+  </packagedElement>
+</uml:Model>

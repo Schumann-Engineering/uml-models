@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_D2PJEFLeEeCgaPtVNLiOgA" name="Platform">
+  <packagedElement xmi:type="uml:Package" xmi:id="_oJjaQMhHEeCg4vW_ENV5gQ" name="PrimitiveTypes">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_DLCqoMhIEeCg4vW_ENV5gQ" name="pBoolean"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="__1KXIMhLEeCg4vW_ENV5gQ" name="Integers">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_z-JpsMhHEeCg4vW_ENV5gQ" name="pSignedInteger64"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ysoXcMhHEeCg4vW_ENV5gQ" name="pSignedInteger32"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1OgeUMhHEeCg4vW_ENV5gQ" name="pUnsignedInteger16"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_2rARgMhHEeCg4vW_ENV5gQ" name="pUnsignedInteger32"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_w6-MkMhHEeCg4vW_ENV5gQ" name="pSignedInteger16"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3dHD4MhHEeCg4vW_ENV5gQ" name="pUnsignedInteger64"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FwshcMhMEeCg4vW_ENV5gQ" name="Calendar">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KbCJoMhMEeCg4vW_ENV5gQ" name="pDate"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_LmiTcMhMEeCg4vW_ENV5gQ" name="pTime"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Mmrh0MhMEeCg4vW_ENV5gQ" name="pDateTime"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gDbOYMhMEeCg4vW_ENV5gQ" name="pTimestemp"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UJi2UMhMEeCg4vW_ENV5gQ" name="pUUID"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o3FusMiUEeCg4vW_ENV5gQ" name="Strings">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_WqfJEMhMEeCg4vW_ENV5gQ" name="pString"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_XexswMhMEeCg4vW_ENV5gQ" name="pText"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UWXIEEpmEeGbDa_-7Js3Mw" name="pInteger"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_WDxFEEpmEeGbDa_-7Js3Mw" name="pBit"/>
+  </packagedElement>
+</uml:Model>
