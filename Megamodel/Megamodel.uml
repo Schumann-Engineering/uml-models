@@ -576,60 +576,6 @@ implies self.systemImpact->notEmpty()</body>
       </eAnnotations>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_3hbTEKD6Ee6WOLry6EkiiA" name="Playground">
-    <packagedElement xmi:type="uml:Package" xmi:id="_-HV2gKiiEe6lqe1aTV646Q" name="HAMILTON-C6">
-      <packagedElement xmi:type="uml:Component" xmi:id="_-HV2gaiiEe6lqe1aTV646Q" name="Ventilator">
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2gqiiEe6lqe1aTV646Q" name="Ventilation Unit">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2g6iiEe6lqe1aTV646Q" name="USB port" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2hKiiEe6lqe1aTV646Q" name="IP Conn." aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2haiiEe6lqe1aTV646Q" name="Sensor Port" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2hqiiEe6lqe1aTV646Q" name="IntelliCuff port" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2h6iiEe6lqe1aTV646Q" name="Air port (inspiratory)" aggregation="composite"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2iKiiEe6lqe1aTV646Q" name="Hamilton Connect Module"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_-HV2iaiiEe6lqe1aTV646Q" name="Interaction Panel" visibility="package">
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2iqiiEe6lqe1aTV646Q" name="Vent Conn." visibility="package" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2i6iiEe6lqe1aTV646Q" name="Display Port" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2jKiiEe6lqe1aTV646Q" name="USB port" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2jaiiEe6lqe1aTV646Q" name="Display" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2jqiiEe6lqe1aTV646Q" name="Speaker" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2j6iiEe6lqe1aTV646Q" name="Alarm light" aggregation="composite"/>
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2kKiiEe6lqe1aTV646Q" name="Interaction Panel"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_-HV2kaiiEe6lqe1aTV646Q"/>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_-HV2kqiiEe6lqe1aTV646Q"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_UBygkKWuEe6ULIx8cDHqqA" name="Environment">
-      <packagedElement xmi:type="uml:Package" xmi:id="_WnWNkKWuEe6ULIx8cDHqqA" name="Medical Treatment">
-        <packagedElement xmi:type="uml:Package" xmi:id="_awAnEKEDEe6q8YQHkp7fhw" name="Accessory">
-          <packagedElement xmi:type="uml:Component" xmi:id="_-HV2k6iiEe6lqe1aTV646Q" name="IntelliCuff">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_-HV2lKiiEe6lqe1aTV646Q"/>
-            <ownedComment xmi:type="uml:Comment" xmi:id="_-HV2laiiEe6lqe1aTV646Q"/>
-            <ownedComment xmi:type="uml:Comment" xmi:id="_-HV2lqiiEe6lqe1aTV646Q"/>
-            <ownedComment xmi:type="uml:Comment" xmi:id="_-HV2l6iiEe6lqe1aTV646Q"/>
-            <ownedComment xmi:type="uml:Comment" xmi:id="_-HV2mKiiEe6lqe1aTV646Q"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2maiiEe6lqe1aTV646Q" name="USB port" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2mqiiEe6lqe1aTV646Q" name="Cuff port" aggregation="composite"/>
-            <packagedElement xmi:type="uml:Actor" xmi:id="_-HV2m6iiEe6lqe1aTV646Q" name="Actor1"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Dependency" xmi:id="_RuefsKEEEe6q8YQHkp7fhw"/>
-        </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_Ycl38KWuEe6ULIx8cDHqqA" name="Network facing features"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_G1xGMKEDEe6q8YQHkp7fhw" name="User">
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2nKiiEe6lqe1aTV646Q" name="Patient">
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2naiiEe6lqe1aTV646Q" name="endotracheal tube" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_-HV2nqiiEe6lqe1aTV646Q" name="cuff port" aggregation="composite"/>
-          <packagedElement xmi:type="uml:Component" xmi:id="_-HV2n6iiEe6lqe1aTV646Q" name="Endotracheal tube"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2oKiiEe6lqe1aTV646Q" name="Medical personnel"/>
-        <packagedElement xmi:type="uml:Component" xmi:id="_-HV2oaiiEe6lqe1aTV646Q" name="Service Technician">
-          <packagedElement xmi:type="uml:Usage" xmi:id="_-HV2oqiiEe6lqe1aTV646Q"/>
-        </packagedElement>
-      </packagedElement>
-    </packagedElement>
-  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2boX8GHpEe6ypqUWAc1JIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2bq0MGHpEe6ypqUWAc1JIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
@@ -638,14 +584,14 @@ implies self.systemImpact->notEmpty()</body>
   </profileApplication>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4WOMcKiiEe6lqe1aTV646Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4WOzgKiiEe6lqe1aTV646Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
-      <references xmi:type="ecore:EPackage" href="../../schumann-engineering.uml-profiles/CONSENS/src/CONSENS.profile.uml#_TXMAwKiVEe6lqe1aTV646Q"/>
+      <references xmi:type="ecore:EPackage" href="../schumann-engineering.uml-profiles/CONSENS/src/CONSENS.profile.uml#_TXMAwKiVEe6lqe1aTV646Q"/>
     </eAnnotations>
-    <appliedProfile xmi:type="uml:Profile" href="../../schumann-engineering.uml-profiles/CONSENS/src/CONSENS.profile.uml#_Sv9oAKTMEe6ULIx8cDHqqA"/>
+    <appliedProfile xmi:type="uml:Profile" href="../schumann-engineering.uml-profiles/CONSENS/src/CONSENS.profile.uml#_Sv9oAKTMEe6ULIx8cDHqqA"/>
   </profileApplication>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5cBW4qiiEe6lqe1aTV646Q">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5cB98KiiEe6lqe1aTV646Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
-      <references xmi:type="ecore:EPackage" href="../../schumann-engineering.uml-profiles/BOM/src/BOM.profile.uml#_b3T9MaZwEe6F5en97R847Q"/>
+      <references xmi:type="ecore:EPackage" href="../schumann-engineering.uml-profiles/BOM/src/BOM.profile.uml#_b3T9MaZwEe6F5en97R847Q"/>
     </eAnnotations>
-    <appliedProfile xmi:type="uml:Profile" href="../../schumann-engineering.uml-profiles/BOM/src/BOM.profile.uml#_mruuYKY2Ee6ULIx8cDHqqA"/>
+    <appliedProfile xmi:type="uml:Profile" href="../schumann-engineering.uml-profiles/BOM/src/BOM.profile.uml#_mruuYKY2Ee6ULIx8cDHqqA"/>
   </profileApplication>
 </uml:Model>
